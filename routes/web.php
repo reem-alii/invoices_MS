@@ -18,3 +18,6 @@ Route::get('/', function () {
 });
 
 Route::get('/{page}', [App\Http\Controllers\AdminController::class, 'index']);
+
+
+// Welcome
